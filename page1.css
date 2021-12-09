@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: url("/img/page2.jpg");
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.UNI{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-body{
+    background-color: green;
+    text-align: center;
+    position: relative;
+
+}
+.main-body ul{
+    display: inline-flex;
+    list-style: none;
+    color:white;
+}
+.main-body ul li{
+    width: 180px;
+    margin: 6px;
+    padding: 22px;
+
+}
+.main-body ul li a{
+    text-decoration: none;
+    color:white;
+}
+.homelist, .main-body ul li:hover
+{
+    background-color: gray;
+}
+.main-body i{
+    margin-right: 8px;
+}
+
+.nav-container{
+    position: relative;
+}
+/* .university1{
+    text-decoration: none;
+    display: none;
+} */
+.sub-mains{
+    display: none;
+    margin-right: 100px;
+    position: absolute;
+}
+.main-body ul li:hover .sub-mains{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: rgb(137, 218, 137);
+    margin-top: 18px;
+    margin-right: 15px;
+    
+}
+.main-body ul li:hover .sub-mains{
+    display: block;
+    margin: 10px;
+    text-align: center;
+  
+}
+/* .ul-university ul
+{
+    display: inline-flex;
+    list-style: none;
+    color:white;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: rgb(137, 218, 137);
+    margin-top: 18px;
+    margin-right: 15px;
+}
+.ul-university ul li{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: rgb(137, 218, 137);
+    margin-top: 18px;
+    margin-right: 15px;
+    
+} */
+/* .ul-university{
+
+
+
+} */
+ 
